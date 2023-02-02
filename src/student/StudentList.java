@@ -12,10 +12,13 @@ public class StudentList {
     
     public static void main(String[] args){
         //Student s1 = new Student("s1", "ronak");
-        Student[] StudentList = new Student[3];
+        Student[] StudentList = new Student[6];
         StudentList[0]=new Student("s1", "ronak");
         StudentList[1]=new Student("s2", "abc");
         StudentList[2]=new Student("s3", "xyz");
+        StudentList[3]=new Student("s4", "xyz1");
+        StudentList[4]=new Student("s5", "xyz2");
+        StudentList[5]=new Student("s6", "xyz3");
         
         for(int i = 0; i < StudentList.length; i++)
         {
